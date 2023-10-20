@@ -12,7 +12,11 @@ doit proc
 	
 	; -------- Assembly Increment (inc) and Decrement (dec) -------------
 
-
+	mov eax, 0
+	add eax, 1
+	add eax, 1
+	add eax, 1
+	add eax, 1
 
 
 	ret
