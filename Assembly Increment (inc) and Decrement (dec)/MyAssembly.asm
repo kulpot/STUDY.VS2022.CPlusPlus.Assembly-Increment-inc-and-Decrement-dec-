@@ -16,7 +16,7 @@ doit proc
 	add eax, 1
 	inc eax				; inc eax is same as add eax
 	add eax, 1
-	inc eax
+	dec eax				; dec eax is same as sub eax
 	add eax, 1
 	inc eax
 	add eax, 1
