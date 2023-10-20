@@ -12,15 +12,20 @@ doit proc
 	
 	; -------- Assembly Increment (inc) and Decrement (dec) -------------
 
+	;mov eax, 0
+	;add eax, 1
+	;inc eax				; inc eax is same as add eax
+	;add eax, 1
+	;dec eax				; dec eax is same as sub eax
+	;add eax, 1
+	;add eax, 1
+
 	mov eax, 0
-	add eax, 1
-	inc eax				; inc eax is same as add eax
-	add eax, 1
-	dec eax				; dec eax is same as sub eax
-	add eax, 1
+doItAgain:				; unconditional jumping
+	;add eax, 1
 	inc eax
-	add eax, 1
-	inc eax
+	jmp doItAgain
+
 
 
 	ret
