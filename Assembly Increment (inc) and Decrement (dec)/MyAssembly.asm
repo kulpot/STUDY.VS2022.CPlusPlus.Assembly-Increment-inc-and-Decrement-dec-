@@ -14,9 +14,13 @@ doit proc
 
 	mov eax, 0
 	add eax, 1
+	inc eax				; inc eax is same as add eax
 	add eax, 1
+	inc eax
 	add eax, 1
+	inc eax
 	add eax, 1
+	inc eax
 
 
 	ret
